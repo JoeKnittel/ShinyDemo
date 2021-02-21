@@ -22,7 +22,7 @@ All code used to generate this app can be found [here](https://www.github.com/Jo
 
 ### Blog
 
-A blog post describing the creation process of this app can be found [here](https://joeknittel.com/2021/02/21/Creating-an-App-With-R-Shiny.html).
+A blog post describing the creation process of this app can be found [here](https://blog.joeknittel.com/2021/02/21/Creating-an-App-With-R-Shiny.html).
 
 ### Author
 
