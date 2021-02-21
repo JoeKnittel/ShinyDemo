@@ -8,7 +8,7 @@ It allows a user to generate different plots comparing selected countries' mean 
 
 More generalized Shiny apps can handle a diverse set of input files, but as a simplified example, this app is designed to interact specifically with data from R's [gapminder package](https://cran.r-project.org/web/packages/gapminder/index.html) which has been stored in a .rds file.
 
-<b><font color = "green">Click [here](https://blog.joeknittel.com/assets/data.rds) to download the required data file</font></b>.
+<span style="background-color:#fff5ed">Click <font color = "red"><a href = "https://blog.joeknittel.com/assets/data.rds">here</a></font> to download the required data file.</span>`
 
 With the .rds data file in hand, you can proceed to use the app by first navigating to the *Analysis* page in the navigation bar at the top.
 
