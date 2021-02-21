@@ -12,7 +12,7 @@ More generalized Shiny apps can handle a diverse set of input files, but as a si
 
 With the .rds data file in hand, you can proceed to use the app by first navigating to the *Analysis* page in the navigation bar at the top.
 
-Once on the *Analysis* page, you'll be tasked with uploading a data file. To do so, just click the **Browse** button and find the .rds file you just downloaded on your hard drive. This will load several widgets in the sidebar and an interactive plot in the main panel.
+Once on the *Analysis* page, you'll be tasked with uploading a data file. To do so, just click the **Browse...** button and find the .rds file you just downloaded on your hard drive. This will load several widgets in the sidebar and an interactive plot in the main panel.
 
 By adjusting the state of the various widgets found in the left sidebar, you can hone into specific regions, economy sizes, populations, and years to gain better insight into the relationship between the independent and dependent variables.
 
