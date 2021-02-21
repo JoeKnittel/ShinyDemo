@@ -2,7 +2,7 @@
 library(shiny)
 
 # the navbar is the top bar with the pages of our app
-navbarPage(id = "nav", title = "Global Life Expectancy vs. GDP per Capita", 
+navbarPage(id = "nav", title = "Global Life Expectancy vs. GDP per Capita", selected = "about", 
     
     # the first page is the main page, where data is to be uploaded and the plot is to be rendered
     tabPanel(value = "analysis", title = "Analysis",
