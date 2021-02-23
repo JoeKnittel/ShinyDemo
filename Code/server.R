@@ -28,9 +28,10 @@ shinyServer(function(input, output) {
     # function to reduce data to just that which is defined by widget states
     getData <- reactive({
         
-        # only proceed once a data file is uploaded
+        # only proceed once a data file is uploaded and the dropdown widget is loaded
         req(input$file1)
-
+        req(input$continent)
+        
         # attempt to load the data into a data frame
         tryCatch(
             df <- readRDS(input$file1$datapath),
@@ -39,6 +40,7 @@ shinyServer(function(input, output) {
                 stop(safeError(e))
             }
         )
+        
         
         # filter the data based on continent dropdown and year slider
         if(input$continent != "All"){
@@ -60,6 +62,7 @@ shinyServer(function(input, output) {
     # slider to adjust the range of GDP per capita values, based on other widget selections
     output$gdpSlider <- renderUI({
         df <- getData() 
+
         values = round(df$gdpPercap)
         if(input$logGDP == TRUE){
             values = round(log10(values),4)
@@ -94,6 +97,11 @@ shinyServer(function(input, output) {
         req(input$file1)
         df <- getData()
 
+        # be sure that the gdp slider element is rendered before proceeding
+        validate(
+            need(input$gdpRange != "", "Loading...")
+        )
+        
         # perform some alterations to the data frame based on widget states before plotting the data  
         log = ""
         if(input$logGDP == TRUE) {
@@ -101,7 +109,7 @@ shinyServer(function(input, output) {
           df$gdpPercap = log10(df$gdpPercap)
         }
         df = df %>% filter(between(gdpPercap, input$gdpRange[1], input$gdpRange[2]))
-        df = df %>% filter(between(pop, input$popRange[1], input$popRange[2]))
+        df = df %>% filter(between(pop, input$popRange[1], input$popRange[2])) 
         
         # just a sanity check to make sure there's data to be plotted
         if(nrow(df) == 0) {plot(1,1, pch = 19, col = "red")}
