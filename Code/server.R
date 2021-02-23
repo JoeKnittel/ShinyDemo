@@ -1,8 +1,3 @@
-# load up the packages the server will require
-library(shiny)
-library(tidyverse)
-library(plotly)
-
 # define server logic to render ui elements and the resultant plot
 shinyServer(function(input, output) {
 

@@ -1,7 +1,3 @@
-# load up the packages the ui will require
-library(shiny)
-library(plotly)
-
 # the navbar is the top bar with the pages of our app
 navbarPage(id = "nav", title = "Global Life Expectancy vs. GDP per Capita", selected = "about", 
     
