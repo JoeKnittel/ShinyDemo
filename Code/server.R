@@ -36,7 +36,6 @@ shinyServer(function(input, output) {
             }
         )
         
-        
         # filter the data based on continent dropdown and year slider
         if(input$continent != "All"){
             df = df %>% filter(continent == input$continent)
