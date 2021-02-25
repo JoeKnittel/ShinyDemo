@@ -8,7 +8,7 @@ It allows a user to generate different plots comparing selected countries' mean 
 
 More generalized Shiny apps can handle a diverse set of input files, but as a simplified example, this app is designed to interact specifically with data from R's [gapminder package](https://cran.r-project.org/web/packages/gapminder/index.html) which has been stored in a .rds file.
 
-<span style="background-color:#fff5ed">Click <a href = "https://blog.joeknittel.com/assets/data.rds">here</a> to download the required data file.</span>
+<span style="background-color:#fff5ed">Click <font color = "red"><a href = "https://blog.joeknittel.com/assets/data.rds">here</a></font> to download the required data file.</span>`
 
 With the .rds data file in hand, you can proceed to use the app by first navigating to the *Analysis* page in the navigation bar at the top.
 
@@ -18,11 +18,11 @@ By adjusting the state of the various widgets found in the left sidebar, you can
 
 ### Code
 
-All code used to generate this app can be found [here](https://www.github.com/JoeKnittel/ShinyDemo).
+All code used to generate this app can be found [here](https://www.github.com/JoeKnittel/Shiny-App-2).
 
 ### Blog
 
-A blog post describing the creation process of this app can be found [here](https://blog.joeknittel.com/2021/02/21/Creating-an-App-With-R-Shiny.html).
+A blog post describing the creation process of this app can be found [here](https://blog.joeknittel.com/2021/02/24/Creating-an-App-With-R-Shiny.html).
 
 ### Author
 

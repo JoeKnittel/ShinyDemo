@@ -56,7 +56,6 @@ shinyServer(function(input, output) {
     # slider to adjust the range of GDP per capita values, based on other widget selections
     output$gdpSlider <- renderUI({
         df <- getData() 
-
         values = round(df$gdpPercap)
         if(input$logGDP == TRUE){
             values = round(log10(values),4)
@@ -77,7 +76,6 @@ shinyServer(function(input, output) {
         sliderInput("year", "Select Year:", min = 1952, max = 2007, step = 5, value = 1952, sep = "", animate = TRUE)
     })
     
-        
     # checkbox to choose whether to log-transform gdp per capita
     output$logCheckbox <- renderUI({
         req(input$file1)
