@@ -8,7 +8,7 @@
 
 <hr>
 
-### Live Demo: <a href = "http://joe-knittel.shinyapps.io/life-expectancy-vs-gdp" target = "_blank">http://joe-knittel.shinyapps.io/life-expectancy-vs-gdp</a>
+### Live Link: <a href = "http://joe-knittel.shinyapps.io/life-expectancy-vs-gdp" target = "_blank">http://joe-knittel.shinyapps.io/life-expectancy-vs-gdp</a>
 
 <hr>
 
