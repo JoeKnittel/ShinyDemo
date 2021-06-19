@@ -18,7 +18,7 @@ By adjusting the state of the various widgets found in the left sidebar, you can
 
 ### Code
 
-All code used to generate this app can be found [here](https://www.github.com/JoeKnittel/Shiny-App-2).
+All code used to generate this app can be found [here](https://www.github.com/JoeKnittel/Shiny-App).
 
 ### Blog
 
