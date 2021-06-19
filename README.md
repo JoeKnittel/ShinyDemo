@@ -1,4 +1,4 @@
-# Shiny-App-2
+# Shiny-App
 
 ## Visualizing Life Expectancy vs. GDP per Capita (2021)
 
