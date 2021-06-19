@@ -4,7 +4,7 @@
 
 <i>This project was completed as a demonstration of R's Shiny package. The app's construction is described on my blog <a href = "https://blog.joeknittel.com/2021/02/24/Creating-an-App-With-R-Shiny.html">here</a>.</i>
 
-<img src = "https://raw.githubusercontent.com/JoeKnittel/Shiny-App-2/main/Images/app_demo.gif">
+<img src = "https://raw.githubusercontent.com/JoeKnittel/Shiny-App/main/Images/app_demo.gif">
 
 <hr>
 
